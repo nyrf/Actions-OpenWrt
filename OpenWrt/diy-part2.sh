@@ -4,7 +4,7 @@
 #sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 # 自定义 sh
 echo "设置lan ip"
-lan_ip='192.168.1.1' 
+lan_ip='192.168.1.2' 
 sed -i "s/192.168.1.1/$lan_ip/g" package/base-files/files/bin/config_generate
 
 echo "修改时区"
